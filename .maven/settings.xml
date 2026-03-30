@@ -12,5 +12,10 @@
             <username>~~~Client~~~</username>
             <password>${CONNECTED_APP_CLIENT_ID}~?~${CONNECTED_APP_CLIENT_SECRET}</password>
         </server>
+        <server>
+			<id>PrivateExchangeRepository</id>
+			<username>cummins.nexus</username>
+			<password>2QzSChSDg4npRUXaGEWN</password>
+		</server>
     </servers>
 </settings>
