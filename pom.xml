@@ -49,7 +49,6 @@
 							</services>
 						</integrations>
 					</cloudhub2Deployment>
-					<classifier>---- select project type ----</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -98,7 +97,7 @@
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>Repository</id>
+			<id>ca.anypoint.credentials</id>
 			<name>Corporate Repository</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${project.groupId}/maven</url>
 			<layout>default</layout>
