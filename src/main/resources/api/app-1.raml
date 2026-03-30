@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: Simple API
+version: v1
+
+
+
+
+
+
+/hello:
+  get:
+    description: Returns a simple message
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "message": "Hello, Welcome to MuleSoft!"
+              }
